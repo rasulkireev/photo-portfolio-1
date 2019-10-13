@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Add Swiper CSS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <!-- Add Swiper CSS Library -->
+
+    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/main.css">
+
+  </head>
+  <body>
+
+        <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="">
+                <h1>Tanya ♡ Rasul</h2>
+  							<p>This is a small sample of our work. Please enjoy!</p>
+                <p>Please contact us at <a href="mailto:me@rasulkireev.com">me@rasulkireev.com</a></p>
+  							<p>-</p>
+  							<p>Swipe/Click right to view selected works.</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="media/DSC00873.jpg" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="media/DSC00934.jpg" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="media/DSC00947.jpg" />
+            </div>
+
+            <div class="swiper-slide">
+              <img src="media/DSC01148.jpg" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Add Swiper JS Library -->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <!-- Add Swiper JS Library -->
+
+    <!-- Additional Swiper Script -->
+    <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+        // Optional parameters
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        speed: 1200,
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      })
+      </script>
+      <!-- Additional Swiper Script -->
+
+  </body>
+</html>
